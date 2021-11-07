@@ -15,3 +15,13 @@ body {
 #jackpot_amount {
 	font-family: 'Big Shoulders Display', 'Helvetica Neue', Arial, Helvetica, sans !important;
 }
+.main.nav-wrapper .main-nav a.active,
+.main.nav-wrapper .main-nav a:hover,
+.main.nav-wrapper .nav-item:hover .navlink {
+	background: linear-gradient(
+		0deg,
+		hsl(358deg 87% 12%) 0%,
+		rgb(100 18 32) 35%,
+		hsl(350deg 66% 45%) 100%
+	) !important;
+}
