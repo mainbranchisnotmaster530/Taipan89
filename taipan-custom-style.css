@@ -18,10 +18,10 @@ body {
 .main.nav-wrapper .main-nav a.active,
 .main.nav-wrapper .main-nav a:hover,
 .main.nav-wrapper .nav-item:hover .navlink {
-	background: linear-gradient(
-		0deg,
-		hsl(358deg 87% 12%) 0%,
-		rgb(100 18 32) 35%,
-		hsl(350deg 66% 45%) 100%
-	) !important;
+	background: linear-gradient(0deg, #6d1d20 0%, #a12032 35%, #f32b4c 100%) !important;
+}
+.main.nav-wrapper .main-nav a.active,
+.main.nav-wrapper .main-nav a:hover,
+.main.nav-wrapper .nav-item:hover .nav-icon {
+	filter: drop-shadow(2px 4px 6px black);
 }
