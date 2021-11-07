@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Nova+Flat&display=swap');
+.main-nav.nav.nav-pills.nav-fill {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 0 !important;
+}
+
+.main-nav.nav.nav-pills.nav-fill > .nav-item > .navlink {
+	padding: 0.9em 0.5em !important;
+}
+body {
+	font-family: 'Nova Flat', 'Helvetica Neue', Arial, Helvetica, sans !important;
+}
+#jackpot_amount {
+	font-family: 'Big Shoulders Display', 'Helvetica Neue', Arial, Helvetica, sans !important;
+}
