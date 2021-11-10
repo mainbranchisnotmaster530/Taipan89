@@ -25,3 +25,13 @@ body {
 .main.nav-wrapper .nav-item:hover .nav-icon {
 	filter: drop-shadow(2px 4px 6px black);
 }
+.main.nav-wrapper .nav-item-content {
+	background-color: transparent !important;
+	box-shadow: none !important;
+	border-bottom: none !important;
+}
+.main.nav-wrapper .nav-item-content > .container {
+	background: #390406dd;
+	border-bottom: 15px solid #490609;
+	box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
+}
