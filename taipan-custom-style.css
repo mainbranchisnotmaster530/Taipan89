@@ -35,3 +35,40 @@ body {
 	border-bottom: 15px solid #bf243b;
 	box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
 }
+.main.nav-wrapper > .container {
+	width: 100% !important;
+	padding: 0 !important;
+}
+/* resize banner */
+.carousel-fixed-height {
+	position: relative !important;
+	width: 100% !important;
+	max-width: 1920px;
+	padding-top: calc(100% * 613 / 1920) !important;
+	margin: auto !important;
+}
+#carousel-fixed-height.carousel.slide {
+	position: absolute !important;
+	top: 0 !important;
+	left: 0 !important;
+	right: 0 !important;
+	bottom: 0 !important;
+}
+.carousel-inner[role='listbox'] {
+	position: relative !important;
+	width: 100% !important;
+	height: 100% !important;
+	overflow: hidden !important;
+}
+.carousel-inner[role='listbox'] > .item {
+	height: 100% !important;
+}
+.slider-size {
+	max-height: none !important;
+	min-height: 100% !important;
+}
+@media (min-width: 1920px) {
+	.carousel-fixed-height {
+		padding-top: 613px !important;
+	}
+}
