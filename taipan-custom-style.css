@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Nova+Flat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Nova+Flat&display=swap');
 .main-nav.nav.nav-pills.nav-fill {
 	display: flex;
 	justify-content: center;
@@ -13,7 +13,7 @@ body {
 	font-family: 'Nova Flat', 'Helvetica Neue', Arial, Helvetica, sans !important;
 }
 #jackpot_amount {
-	font-family: 'Big Shoulders Display', 'Helvetica Neue', Arial, Helvetica, sans !important;
+	font-family: 'Share Tech Mono', Courier, monospace !important;
 }
 .main.nav-wrapper .main-nav a.active,
 .main.nav-wrapper .main-nav a:hover,
